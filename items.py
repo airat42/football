@@ -1,9 +1,9 @@
 import pygame
 from squares import *
 
-ball_img = pygame.image.load('ball.png')
-footballer_img = pygame.image.load('footballer.png')
-selected_footballer_img = pygame.image.load('footballer_selected.png')
+ball_img = pygame.image.load('img/ball.png')
+footballer_img = pygame.image.load('img/footballer.png')
+selected_footballer_img = pygame.image.load('img/footballer_selected.png')
 
 class Field:
     def __init__(self, coord, footballer_exist, ball_exist):

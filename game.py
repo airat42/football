@@ -9,9 +9,9 @@ HEIGHT = 900
 FPS = 60
 POWERUP_TIME = 5000
 
-field_img = pygame.image.load('field.png')
-selected_field = pygame.image.load('field_selected.png')
-variable_field = pygame.image.load('variable.png')
+field_img = pygame.image.load('img/field.png')
+selected_field = pygame.image.load('img/field_selected.png')
+variable_field = pygame.image.load('img/variable.png')
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
